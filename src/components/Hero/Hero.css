@@ -67,3 +67,175 @@
   width: 1055px;
   height: 533px;
 }
+
+.hero-section {
+  padding: 80px 16px;
+}
+
+@media (min-width: 640px) {
+  .hero-section {
+    padding: 80px 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 80px 32px;
+  }
+}
+
+.hero-content {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #06b6d4;
+  margin-bottom: 24px;
+  text-wrap: balance;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-title {
+    font-size: 60px;
+  }
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #4b5563;
+  margin-bottom: 32px;
+}
+
+.hero-button {
+  background-color: #06b6d4;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-button:hover {
+  background-color: #0891b2;
+}
+
+.hero-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1055px;
+  height: 533px;
+}
+
+@media (max-width: 479px) {
+  .hero-section {
+    padding: 40px 12px;
+  }
+
+  .hero-content {
+    margin-bottom: 32px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 1.4;
+  }
+
+  .hero-button {
+    padding: 10px 24px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-image-container {
+    width: 100%;
+    height: 200px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .hero-section {
+    padding: 50px 14px;
+  }
+
+  .hero-content {
+    margin-bottom: 40px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  .hero-subtitle {
+    font-size: 17px;
+    margin-bottom: 26px;
+  }
+
+  .hero-button {
+    padding: 11px 28px;
+    font-size: 17px;
+  }
+
+  .hero-image-container {
+    width: 100%;
+    height: 250px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-section {
+    padding: 70px 24px;
+  }
+
+  .hero-content {
+    margin-bottom: 56px;
+  }
+
+  .hero-title {
+    font-size: 42px;
+    margin-bottom: 22px;
+  }
+
+  .hero-subtitle {
+    font-size: 19px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-button {
+    font-size: 17px;
+  }
+
+  .hero-image-container {
+    width: 100%;
+    height: 400px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

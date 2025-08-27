@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import Header from "./components/Header";
 import Hero from "./components/Hero/Hero";
 import Features from "./components/Capabilities/Features";
+import Faq from "./components/Faq/Faq";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +21,12 @@ function App() {
         </section>
         <section>
           <Features />
+        </section>
+        <section>
+          <Faq />
+        </section>
+        <section>
+          <Contact />
         </section>
       </main>
     </>
